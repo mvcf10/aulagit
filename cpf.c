@@ -55,7 +55,7 @@ int main() {
     if (resto2 < 1) {
         dv2 = 0;
     } else {
-        dv2 = 10 - resto2;
+        dv2 = 11 - resto2;
     }
 
     printf("O resto2 é: %d\n", resto2);

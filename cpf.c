@@ -52,10 +52,10 @@ int main() {
 
     resto2 = (a*11 + b*10 + c*9 + d*8 + e*7 + f*6 + g*5 + h*4 + i*3 + dv1*2) % 11;
 
-    if (resto2 < 1) {
+    if (resto2 < 2 {
         dv2 = 0;
     } else {
-        dv2 = 10 - resto2;
+        dv2 = 11 - resto2;
     }
 
     printf("O resto2 é: %d\n", resto2);
